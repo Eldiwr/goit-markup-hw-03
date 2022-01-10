@@ -243,6 +243,7 @@ img {
 
 .command .container {
 	background-color: var(--secondary-background-color);
+	padding-bottom: 94px;
 }
 
 .section.command .item {
@@ -284,7 +285,7 @@ img {
 /* footer */
 
 .container.footer {
-    margin-top: 94px;
+    
 	margin-left: auto;
 	margin-right: auto;
 	padding: 60px 15px;
