@@ -301,23 +301,12 @@ img {
 
 /* footer */
 
-.container.footer {
-    
-	margin-left: auto;
-	margin-right: auto;
-	padding: 60px 15px;
-
-    width: 1200px;
-	height: 252px;
-}
-
 .container .address-list,
 .adress {
 	display: block;
 }
 
 .logo-footer {
-	margin-right: 93px;
 	margin-bottom: 20px;
 
 	color: var(--primary-background-color);
@@ -341,10 +330,11 @@ img {
 
 .address {
 	margin-top: 20px;
+	padding-bottom: 60px;
 }
 
-.adress-list .item:not(:last-child) {
-	margin-top: 9px;
+.address-item:not(:last-child) {
+	margin-bottom: 9px;
 }
 
 .address-list .link:hover,
@@ -359,7 +349,7 @@ footer {
 .address-list {
 	font-style: normal;
 	text-decoration: none;
-	color: inherit;
+	color: inherit;	
 }
 
 .address-link {
