@@ -216,12 +216,7 @@ img {
 }
 
 .text-list {
-	margin-right: 30px;
 	width: 270px;
-}
-
-.text-list:last-child {
-	margin-right:0px;
 }
 
 .section.command {
