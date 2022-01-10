@@ -439,9 +439,9 @@ footer {
 
 .link-title {
     margin-top: 20px;
-    margin-right: 24px;
+    padding-right: 24px;
     margin-bottom: 5px;
-    margin-left: 24px;
+    padding-left: 24px;
 
 	color: var(--secondary-font-color);
 
@@ -452,8 +452,8 @@ footer {
 }
 
 .title-description {
-    margin-right: 24px;
-    margin-left: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
     padding-bottom: 20px;
 
 	font-weight: 400;
