@@ -293,13 +293,19 @@ img {
 
 /* footer */
 
+footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: var(--footer-background-color);
+}
+
 .container .address-list,
-.adress {
+.adress,
+.logo-footer {
 	display: block;
 }
 
 .logo-footer {
-	display: block;
 	margin-bottom: 20px;
 
 	color: var(--primary-background-color);
@@ -321,10 +327,6 @@ img {
 	color: var(--focus-color);
 }
 
-.address {
-	padding-bottom: 60px;
-}
-
 .address-item:not(:last-child) {
 	margin-bottom: 9px;
 }
@@ -332,11 +334,6 @@ img {
 .address-list .link:hover,
 .address-list .link:focus {
 	color: var(--focus-color);
-}
-
-footer {
-	padding-top: 60px;
-	background-color: var(--footer-background-color);
 }
 
 .address-list {
