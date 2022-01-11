@@ -355,7 +355,6 @@ footer {
 .filter-button {
 	padding: 6px 22px;
 	height: 38px;
-	margin-right: 8px;
 	
 	color: var(--footer-background-color);
 	background-color: var(--secondary-background-color);
@@ -369,6 +368,12 @@ footer {
 	border: none;
 	border-radius: 4px;
 }
+
+.button-li:not(:last-child) {
+	margin-right: 8px;
+}
+
+
 
 .filter-button:hover,
 .filter-button:focus {
